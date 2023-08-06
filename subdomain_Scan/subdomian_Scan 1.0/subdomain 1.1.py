@@ -4,11 +4,11 @@ import requests
 
 
 # 隧道域名:端口号
-tunnel = "f536.kdltps.com:15818"
+tunnel = "fxxx.xxxxxxx.com:xxxxx"
 
 # 用户名密码方式
-username = "t19073117948076"
-password = "znaaxgzr"
+username = "xxxxxxxxxxxxxx"
+password = "xxxxx"
 proxies = {
     "http": f"http://{username}:{password}@{tunnel}/",
     "https": f"http://{username}:{password}@{tunnel}/"

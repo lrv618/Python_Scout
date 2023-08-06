@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 
 import requests
-import concurrent.futures   #多线程
+import concurrent.futures   
 from fake_useragent import UserAgent   
 
 rua = UserAgent()    #创建一个随机User-Agent生成器
 
 # 隧道域名:端口号
-tunnel = "f536.kdltps.com:15818"
+tunnel = "xxxx.xxxxxx.com:xxxx"
 
 # 用户名密码方式
-username = "t19073117948076"
-password = "znaaxgzr"
+username = "xxxxxxxxxxxxxxxxx"
+password = "xxxxxxx"
 proxies = {
     "http": f"http://{username}:{password}@{tunnel}/",   
     "https": f"http://{username}:{password}@{tunnel}/"  
